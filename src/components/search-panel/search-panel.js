@@ -8,6 +8,9 @@ const SearchPanel = () => {
     }
     return (
         <input
+            type='text'
+            className="form-control search-input"
+
             style={searchStyle}
             placeholder={searchText}
         />
